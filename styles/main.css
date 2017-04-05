@@ -1,0 +1,17 @@
+
+* {
+  box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 80px;
+    background: #1E90FF;
+}
+
+header{
+    padding: 10px;
+    text-align: center;
+}
+.logo{
+    height: 35px;
+}

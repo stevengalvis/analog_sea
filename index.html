@@ -3,9 +3,29 @@
     <head>
         <meta charset="utf-8">
         <title>AnalogSea Sign Up Page</title>
-        <meta name="description" content="Sign up Page for Analog Sea users">
+        <meta name="description" content="Sign up Page for AnalogSea users">
+        <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles/main.css" />
     </head>
+    <header>
+        <img src = "images/logo.png" class = "logo" alt ="logo of AnalogSea" />
+    </header>
     <body>
+        <main>
+            <form class="sign-up-form" action="/signup" method="post">
+                <fieldset name = "sign-up">
+                    <legend>
+                        Sign Up
+                    </legend>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id ="email">
+                    <label for = "password">Password</label>
+                    <input type="password" name="password" id="password">
+
+                </fieldset>
+
+            </form>
+        </main>
 
     </body>
 </html>
