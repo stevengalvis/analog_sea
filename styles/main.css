@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body{
-    margin: 0;
+
     padding: 80px;
     background: #1E90FF;
 }
@@ -14,4 +14,18 @@ header{
 }
 .logo{
     height: 35px;
+}
+
+.sign-up-form{
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 400px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    text-align: center;
+
 }
