@@ -69,10 +69,11 @@ header{
 }
 
 .sign-up-form button{
-margin-top: 5px;
+  margin-top: 5px;
   cursor: pointer;
   color: white;
-  background-color: #50D050
+  background-color: #50D050;
+  font-size: 150%;
 }
 
 .sign-up-form button:hover{
