@@ -6,6 +6,11 @@ body{
 
     padding: 80px;
     background: #1E90FF;
+    font-family: 'Roboto', helvetica, sans-serif;
+}
+
+legend{
+    font-size: 200%;
 }
 
 header{
@@ -14,18 +19,79 @@ header{
 }
 .logo{
     height: 35px;
+    margin-bottom: 5px;
 }
 
 .sign-up-form{
     padding-left: 40px;
     padding-right: 40px;
+    padding-top: 40px;
     width: 400px;
     background-color: white;
     margin-left: auto;
     margin-right: auto;
+    border: none;
+    height: 400px;
+
+
 }
 
 .container{
     text-align: center;
+    /*padding-right: 40px;*/
 
+}
+.sign-up-form fieldset{
+
+    border: none;
+}
+
+.sign-up-form label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 5px;
+
+
+
+}
+
+.sign-up-form input, button{
+    margin-bottom: 5px;
+    width: 320px;
+    border: 2px solid 	#E0E0E0;
+    padding: 15px;
+
+}
+
+.sign-up-form input{
+    height:55px;
+
+}
+
+.sign-up-form button{
+margin-top: 5px;
+  cursor: pointer;
+  color: white;
+  background-color: #50D050
+}
+
+.sign-up-form button:hover{
+    background-color: #6B8E23;
+}
+
+
+.sign-up-form input:focus{
+    color: blue;
+}
+
+.account-message{
+    color: white;
+    font-weight: bold;
+}
+.account-message a{
+    color: white;
+}
+
+.forgot a{
+    color:	#D3D3D3
 }

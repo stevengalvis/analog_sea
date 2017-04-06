@@ -6,6 +6,7 @@
         <meta name="description" content="Sign up Page for AnalogSea users">
         <!-- Stylesheet -->
   <link rel="stylesheet" href="styles/main.css" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     </head>
     <header>
         <img src = "images/logo.png" class = "logo" alt ="logo of AnalogSea" />
@@ -25,16 +26,17 @@
                     <label for = "password">Password</label>
                     <input type="password" name="password" id="password" placeholder =
                     "1234password" required>
-
+<a href="#"><button type="submit">Submit</button></a>
                 </fieldset>
-                <button type="submit">Submit</button>
-                <p>
-                    Forgot password?
+
+                <p class = "forgot">
+                    <a href="/forgot-password/new">Forgot password?</a>
                 </p>
-                <p>
-                    Already have an account? <span>Login?</span>
-                </p>
+
             </form>
+            <p class = "account-message">
+                Already have an account? <span><a class = "login" href="/login">Login?</a></span>
+            </p>
 
         </div>
         </main>
